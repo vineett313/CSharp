@@ -16,8 +16,15 @@ namespace ExtensionMethod.Test
         [TestMethod]
         public void Example2_Test()
         {
-            Manager obj = new Manager();
+            ICompany obj = new Manager();
             Assert.AreEqual("Vineet", obj.GetEmployeeById(1).Name);
+        }
+
+        [TestMethod]
+        public void Example3_Test()
+        {
+            int[] obj = new int[] { 1, 2, 3, 455, 6 };
+            Assert.AreEqual(obj.GetCount(), obj.Length);
         }
     }
 }

@@ -24,8 +24,14 @@ namespace ExtensionMethod
 
         private void OnExample2_Click(object sender, EventArgs e)
         {
-            Manager obj = new Manager();
+            ICompany obj = new Manager();
             MessageBox.Show(obj.GetEmployeeById(1).Name);
+        }
+
+        private void OnExample3_Click(object sender, EventArgs e)
+        {
+            int[] obj = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            MessageBox.Show(obj.GetCount().ToString());
         }
     }
 }
