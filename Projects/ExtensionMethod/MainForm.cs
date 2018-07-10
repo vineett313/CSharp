@@ -21,5 +21,11 @@ namespace ExtensionMethod
         {
             MessageBox.Show("Vineet".DoWelcome());
         }
+
+        private void OnExample2_Click(object sender, EventArgs e)
+        {
+            Manager obj = new Manager();
+            MessageBox.Show(obj.GetEmployeeById(1).Name);
+        }
     }
 }
