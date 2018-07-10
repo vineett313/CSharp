@@ -9,3 +9,8 @@
 /Solution/.vs/Solution/v15/Server/sqlite3
 /.vs/slnx.sqlite
 /.vs
+/Solution/ExtensionMethod.Test/bin/Debug
+/Solution/ExtensionMethod.Test/obj/Debug
+/Solution/packages
+/Projects/ExtensionMethod.Test/bin/Debug
+/Projects/ExtensionMethod.Test/obj/Debug
