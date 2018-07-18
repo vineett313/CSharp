@@ -14,3 +14,8 @@
 /Solution/packages
 /Projects/ExtensionMethod.Test/bin/Debug
 /Projects/ExtensionMethod.Test/obj/Debug
+*.dtbcache
+/Projects/Collection/bin/Debug
+/Projects/Collection/obj/Debug
+/Projects/Collection.Test/bin/Debug
+/Projects/Collection.Test/obj/Debug
