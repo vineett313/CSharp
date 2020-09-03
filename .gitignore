@@ -2,26 +2,76 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+# User-specific files
+*.rsuser
 *.suo
-*.exe
-/Projects/ExtensionMethod/bin/Debug
-/Projects/ExtensionMethod/obj/Debug
-/Solution/.vs/Solution/v15/Server/sqlite3
-/.vs/slnx.sqlite
-/.vs
-/Solution/ExtensionMethod.Test/bin/Debug
-/Solution/ExtensionMethod.Test/obj/Debug
-/Solution/packages
-/Projects/ExtensionMethod.Test/bin/Debug
-/Projects/ExtensionMethod.Test/obj/Debug
-*.dtbcache
-/Projects/Collection/bin/Debug
-/Projects/Collection/obj/Debug
-/Projects/Collection.Test/bin/Debug
-/Projects/Collection.Test/obj/Debug
-/Projects/DesignPattern/obj/Debug
-/Projects/WPFApplication/bin/Debug
-/Projects/WPFApplication/obj/Debug
-/Projects/CSharp.4.0/bin/Debug
-/Projects/CSharp.4.0/obj/Debug
-/Projects/DesignPattern/bin/Debug
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# nuget packages
+[pP]ackages/
+
+# Visual Studio 2019 cache/options directory
+.vs/
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
